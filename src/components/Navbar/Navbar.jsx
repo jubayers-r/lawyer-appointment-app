@@ -1,15 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router";
+import logo from "/src/assets/logo.png"
 
+export const navlinks = (
+  <>
+    <NavLink to={"/"}>Home</NavLink>
+    <NavLink to={"/bookings"}>My-Bookings</NavLink>
+    <NavLink to={"/blogs"}>Blogs</NavLink>
+    <NavLink to={"/contact"}>Contact Us</NavLink>
+  </>
+);
 const Navbar = () => {
-  const navlinks = (
-    <>
-      <NavLink to={"/"}>Home</NavLink>
-      <NavLink to={"/bookings"}>My-Bookings</NavLink>
-      <NavLink to={"/blogs"}>Blogs</NavLink>
-      <NavLink to={"/contact"}>Contact Us</NavLink>
-    </>
-  );
 
   return (
     <div className="navbar w-9/11 mx-auto py-4">
@@ -40,7 +41,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex gap-3 py-3 items-center">
-          <img src="/src/assets/logo.png" alt="" />
+          <img src={logo} alt="" />
           <h3 className="font-black text-3xl text-black/80 font-[Plus_Jakarta_Sans]">
             Law.BD
           </h3>
