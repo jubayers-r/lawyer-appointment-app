@@ -13,7 +13,7 @@ const Services = () => {
         <h3 className="font-black text-3xl">We Provide Best Law Services</h3>
         <p>
           Our platform connects you with verified, experienced Lawyers across
-          various specialities — all at your convenience.{" "}
+          various specialities — all at your convenience.
         </p>
       </div>
       <div className=" gap-4 w-full grid sm:grid-cols-2 lg:grid-cols-4">

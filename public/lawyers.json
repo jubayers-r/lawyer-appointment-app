@@ -1,0 +1,110 @@
+[
+    {
+      "image": "https://i.ibb.co.com/HD3FWVrd/download.webp",
+      "name": "Robert Shapiro",
+      "speciality": "Criminal Defense",
+      "years_of_experience": 56,
+      "license_number": "CA123456",
+      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "consultation_fee": 1000
+    },
+    {
+      "image": "https://i.ibb.co.com/jcBypzr/download.webp",
+      "name": "Johnnie Cochran",
+      "speciality": "Civil Rights & Criminal Defense",
+      "years_of_experience": 38,
+      "license_number": "CA654321",
+      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+      "consultation_fee": 1200
+    },
+    {
+      "image": "https://i.ibb.co.com/qYWd72JQ/download.webp",
+      "name": "F. Lee Bailey",
+      "speciality": "Criminal Defense",
+      "years_of_experience": 50,
+      "license_number": "MA789012",
+      "availability_days": ["Monday", "Wednesday", "Friday"],
+      "consultation_fee": 1500
+    },
+    {
+      "image": "https://i.ibb.co.com/ZR5R45gm/download.webp",
+      "name": "David Boies",
+      "speciality": "Litigation & Antitrust",
+      "years_of_experience": 59,
+      "license_number": "NY345678",
+      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "consultation_fee": 2000
+    },
+    {
+      "image": "https://i.ibb.co.com/5JR8j6P/download.webp",
+      "name": "Preet Bharara",
+      "speciality": "White-Collar Crime",
+      "years_of_experience": 30,
+      "license_number": "NY901234",
+      "availability_days": ["Monday", "Wednesday", "Thursday", "Friday"],
+      "consultation_fee": 800
+    },
+    {
+      "image": "https://i.ibb.co.com/SDZwQq8B/download.webp",
+      "name": "Drew Findling",
+      "speciality": "Criminal Defense",
+      "years_of_experience": 41,
+      "license_number": "GA567890",
+      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "consultation_fee": 900
+    },
+    {
+      "image": "https://i.ibb.co.com/PvMnWfJc/Dan-Webb.jpg",
+      "name": "Dan K. Webb",
+      "speciality": "White-Collar & Corporate Litigation",
+      "years_of_experience": 50,
+      "license_number": "IL234567",
+      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "consultation_fee": 1400
+    },
+    {
+      "image": "https://i.ibb.co.com/gM0T0bvP/download.webp",
+      "name": "Mark Geragos",
+      "speciality": "Criminal Defense & Civil Litigation",
+      "years_of_experience": 40,
+      "license_number": "CA890123",
+      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "consultation_fee": 1000
+    },
+    {
+      "image": "https://i.ibb.co.com/sdtYCZNG/licensed-image.jpg",
+      "name": "Thomas Mesereau",
+      "speciality": "Criminal Defense",
+      "years_of_experience": 45,
+      "license_number": "CA345678",
+      "availability_days": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "consultation_fee": 1100
+    },
+    {
+      "image": "https://i.ibb.co.com/JjnjW1tB/65961297c927e-image.jpg",
+      "name": "Alan Dershowitz",
+      "speciality": "Constitutional & Criminal Law",
+      "years_of_experience": 60,
+      "license_number": "NY678901",
+      "availability_days": ["Monday", "Tuesday", "Thursday", "Friday"],
+      "consultation_fee": 1300
+    },
+    {
+      "image": "https://i.ibb.co.com/B2SmSw47/Robert-Hur-Official-Photo.jpg",
+      "name": "Robert K. Hur",
+      "speciality": "White-Collar & Government Investigations",
+      "years_of_experience": 25,
+      "license_number": "MD456789",
+      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "consultation_fee": 950
+    },
+    {
+      "image": "https://i.ibb.co.com/DgGcPzFZ/burck-bill-2021-alm-cropped.jpg",
+      "name": "William A. Burck",
+      "speciality": "Corporate & Political Defense",
+      "years_of_experience": 30,
+      "license_number": "NY012345",
+      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "consultation_fee": 1000
+    }
+  ]
