@@ -2,14 +2,16 @@ import React, { useEffect, useState } from "react";
 import Lawyer from "./Lawyer";
 
 const Lawyers = () => {
-    const [lawyers, setLawyers] = useState([]);
-    useEffect(() => {
-        fetch('/public/lawyers.json')
-        .then(res=> res.json())
-        .then(res=>setLawyers(res))
-    },[])
+  const [showMore, setShowMore] = useState(false);
+  const [lawyers, setLawyers] = useState([]);
+  useEffect(() => {
+    fetch("/lawyers.json")
+      .then((res) => res.json())
+      .then((res) => setLawyers(res));
+  }, []);
+
   return (
-    <div className="my-25 space-y-5">
+    <div className="my-25 space-y-7">
       <div className="text-center space-y-5 w-[70%] mx-auto">
         <h3 className="font-black text-3xl">Our Best Lawyers</h3>
         <p>
@@ -19,11 +21,10 @@ const Lawyers = () => {
           receive quality care you can trust.
         </p>
       </div>
-      <div className="grid xl:grid-cols-2 2xl:gap-22 sm:gap-12 gap-7">
-        {
-            lawyers.map(lawyer => <Lawyer lawyer={lawyer}/> )
-        }
-
+      <div className="grid xl:grid-cols-2 sm:gap-12 gap-7">
+        {lawyers.map((lawyer) => (
+          <Lawyer key={lawyer.license_number} lawyer={lawyer} />
+        ))}
       </div>
     </div>
   );

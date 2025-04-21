@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="flex gap-3 py-3 items-center">
           <img src={logo} alt="" />
           <h3 className="font-black text-3xl text-black/80 font-[Plus_Jakarta_Sans]">
-            Law.BD
+            Law.USA
           </h3>
         </div>
       </div>

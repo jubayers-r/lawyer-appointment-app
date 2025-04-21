@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex gap-3">
           <img src={logo} alt="" />
           <h3 className="font-black text-3xl text-white font-[Plus_Jakarta_Sans]">
-            Law.BD
+            Law.USA
           </h3>
         </div>
         <div className="flex gap-4">{navlinks}</div>

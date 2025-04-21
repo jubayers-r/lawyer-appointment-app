@@ -1,110 +1,122 @@
 [
-    {
-      "image": "https://i.ibb.co.com/HD3FWVrd/download.webp",
-      "name": "Robert Shapiro",
-      "speciality": "Criminal Defense",
-      "years_of_experience": 56,
-      "license_number": "CA123456",
-      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "consultation_fee": 1000
-    },
-    {
-      "image": "https://i.ibb.co.com/jcBypzr/download.webp",
-      "name": "Johnnie Cochran",
-      "speciality": "Civil Rights & Criminal Defense",
-      "years_of_experience": 38,
-      "license_number": "CA654321",
-      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
-      "consultation_fee": 1200
-    },
-    {
-      "image": "https://i.ibb.co.com/qYWd72JQ/download.webp",
-      "name": "F. Lee Bailey",
-      "speciality": "Criminal Defense",
-      "years_of_experience": 50,
-      "license_number": "MA789012",
-      "availability_days": ["Monday", "Wednesday", "Friday"],
-      "consultation_fee": 1500
-    },
-    {
-      "image": "https://i.ibb.co.com/ZR5R45gm/download.webp",
-      "name": "David Boies",
-      "speciality": "Litigation & Antitrust",
-      "years_of_experience": 59,
-      "license_number": "NY345678",
-      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "consultation_fee": 2000
-    },
-    {
-      "image": "https://i.ibb.co.com/5JR8j6P/download.webp",
-      "name": "Preet Bharara",
-      "speciality": "White-Collar Crime",
-      "years_of_experience": 30,
-      "license_number": "NY901234",
-      "availability_days": ["Monday", "Wednesday", "Thursday", "Friday"],
-      "consultation_fee": 800
-    },
-    {
-      "image": "https://i.ibb.co.com/SDZwQq8B/download.webp",
-      "name": "Drew Findling",
-      "speciality": "Criminal Defense",
-      "years_of_experience": 41,
-      "license_number": "GA567890",
-      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "consultation_fee": 900
-    },
-    {
-      "image": "https://i.ibb.co.com/PvMnWfJc/Dan-Webb.jpg",
-      "name": "Dan K. Webb",
-      "speciality": "White-Collar & Corporate Litigation",
-      "years_of_experience": 50,
-      "license_number": "IL234567",
-      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "consultation_fee": 1400
-    },
-    {
-      "image": "https://i.ibb.co.com/gM0T0bvP/download.webp",
-      "name": "Mark Geragos",
-      "speciality": "Criminal Defense & Civil Litigation",
-      "years_of_experience": 40,
-      "license_number": "CA890123",
-      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "consultation_fee": 1000
-    },
-    {
-      "image": "https://i.ibb.co.com/sdtYCZNG/licensed-image.jpg",
-      "name": "Thomas Mesereau",
-      "speciality": "Criminal Defense",
-      "years_of_experience": 45,
-      "license_number": "CA345678",
-      "availability_days": ["Monday", "Tuesday", "Thursday", "Friday"],
-      "consultation_fee": 1100
-    },
-    {
-      "image": "https://i.ibb.co.com/JjnjW1tB/65961297c927e-image.jpg",
-      "name": "Alan Dershowitz",
-      "speciality": "Constitutional & Criminal Law",
-      "years_of_experience": 60,
-      "license_number": "NY678901",
-      "availability_days": ["Monday", "Tuesday", "Thursday", "Friday"],
-      "consultation_fee": 1300
-    },
-    {
-      "image": "https://i.ibb.co.com/B2SmSw47/Robert-Hur-Official-Photo.jpg",
-      "name": "Robert K. Hur",
-      "speciality": "White-Collar & Government Investigations",
-      "years_of_experience": 25,
-      "license_number": "MD456789",
-      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "consultation_fee": 950
-    },
-    {
-      "image": "https://i.ibb.co.com/DgGcPzFZ/burck-bill-2021-alm-cropped.jpg",
-      "name": "William A. Burck",
-      "speciality": "Corporate & Political Defense",
-      "years_of_experience": 30,
-      "license_number": "NY012345",
-      "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      "consultation_fee": 1000
-    }
-  ]
+  {
+    "image": "https://i.ibb.co.com/HD3FWVrd/download.webp",
+    "name": "Robert Shapiro",
+    "speciality": "Criminal Defense",
+    "years_of_experience": 56,
+    "license_number": "CA123456",
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 1000,
+    "description": "Renowned for his role in the O.J. Simpson trial, Robert Shapiro is a veteran criminal defense attorney with over five decades of high-profile legal experience."
+  },
+  {
+    "image": "https://i.ibb.co.com/jcBypzr/download.webp",
+    "name": "Johnnie Cochran",
+    "speciality": "Civil Rights & Criminal Defense",
+    "years_of_experience": 38,
+    "license_number": "CA654321",
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    "consultation_fee": 1200,
+    "description": "A passionate advocate for civil rights and a powerful courtroom presence, Johnnie Cochran famously led the defense team in the O.J. Simpson case."
+  },
+  {
+    "image": "https://i.ibb.co.com/qYWd72JQ/download.webp",
+    "name": "F. Lee Bailey",
+    "speciality": "Criminal Defense",
+    "years_of_experience": 50,
+    "license_number": "MA789012",
+    "availability_days": ["Monday", "Wednesday", "Friday"],
+    "consultation_fee": 1500,
+    "description": "A legendary trial lawyer known for his sharp cross-examinations, F. Lee Bailey represented some of the most controversial figures in American legal history."
+  },
+  {
+    "image": "https://i.ibb.co.com/ZR5R45gm/download.webp",
+    "name": "David Boies",
+    "speciality": "Litigation & Antitrust",
+    "years_of_experience": 59,
+    "license_number": "NY345678",
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 2000,
+    "description": "David Boies has shaped major litigation in the U.S., from the Microsoft antitrust case to Bush v. Gore, making him one of the nation's most influential trial lawyers."
+  },
+  {
+    "image": "https://i.ibb.co.com/5JR8j6P/download.webp",
+    "name": "Preet Bharara",
+    "speciality": "White-Collar Crime",
+    "years_of_experience": 30,
+    "license_number": "NY901234",
+    "availability_days": ["Monday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 800,
+    "description": "Former U.S. Attorney for the Southern District of New York, Preet Bharara built a reputation for aggressively prosecuting financial crimes and political corruption."
+  },
+  {
+    "image": "https://i.ibb.co.com/SDZwQq8B/download.webp",
+    "name": "Drew Findling",
+    "speciality": "Criminal Defense",
+    "years_of_experience": 41,
+    "license_number": "GA567890",
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 900,
+    "description": "Known as the 'hashtag lawyer' for his social media savvy, Drew Findling represents high-profile celebrities and hip-hop artists in serious criminal cases."
+  },
+  {
+    "image": "https://i.ibb.co.com/PvMnWfJc/Dan-Webb.jpg",
+    "name": "Dan K. Webb",
+    "speciality": "White-Collar & Corporate Litigation",
+    "years_of_experience": 50,
+    "license_number": "IL234567",
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 1400,
+    "description": "A former U.S. Attorney and a go-to litigator for Fortune 500 companies, Dan Webb is revered for his leadership in complex corporate investigations and trials."
+  },
+  {
+    "image": "https://i.ibb.co.com/gM0T0bvP/download.webp",
+    "name": "Mark Geragos",
+    "speciality": "Criminal Defense & Civil Litigation",
+    "years_of_experience": 40,
+    "license_number": "CA890123",
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 1000,
+    "description": "Mark Geragos is a fixture in celebrity legal defense, handling cases for figures like Michael Jackson and Winona Ryder, while also tackling major civil suits."
+  },
+  {
+    "image": "https://i.ibb.co.com/sdtYCZNG/licensed-image.jpg",
+    "name": "Thomas Mesereau",
+    "speciality": "Criminal Defense",
+    "years_of_experience": 45,
+    "license_number": "CA345678",
+    "availability_days": ["Monday", "Tuesday", "Thursday", "Friday"],
+    "consultation_fee": 1100,
+    "description": "Best known for defending Michael Jackson in his 2005 trial, Thomas Mesereau has a track record of winning complex and high-stakes criminal cases."
+  },
+  {
+    "image": "https://i.ibb.co.com/JjnjW1tB/65961297c927e-image.jpg",
+    "name": "Alan Dershowitz",
+    "speciality": "Constitutional & Criminal Law",
+    "years_of_experience": 60,
+    "license_number": "NY678901",
+    "availability_days": ["Monday", "Tuesday", "Thursday", "Friday"],
+    "consultation_fee": 1300,
+    "description": "A Harvard law professor and prolific author, Alan Dershowitz is one of America's most recognizable legal scholars, often involved in landmark constitutional debates."
+  },
+  {
+    "image": "https://i.ibb.co.com/B2SmSw47/Robert-Hur-Official-Photo.jpg",
+    "name": "Robert K. Hur",
+    "speciality": "White-Collar & Government Investigations",
+    "years_of_experience": 25,
+    "license_number": "MD456789",
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 950,
+    "description": "As a former U.S. Attorney and Special Counsel, Robert Hur brings a wealth of experience in sensitive government investigations and high-profile white-collar cases."
+  },
+  {
+    "image": "https://i.ibb.co.com/DgGcPzFZ/burck-bill-2021-alm-cropped.jpg",
+    "name": "William A. Burck",
+    "speciality": "Corporate & Political Defense",
+    "years_of_experience": 30,
+    "license_number": "NY012345",
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "consultation_fee": 1000,
+    "description": "William Burck is a leading attorney in defending political figures and corporations in investigations and congressional inquiries, known for his strategic counsel."
+  }
+]
