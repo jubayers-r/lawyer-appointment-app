@@ -1,6 +1,7 @@
 import React from 'react';
 import banner from "/src/assets/banner-img-1.png"
 
+
 const Header = () => {
     return (
        <div className='relative'>
