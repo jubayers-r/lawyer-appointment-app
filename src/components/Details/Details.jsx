@@ -112,10 +112,9 @@ const Details = () => {
               <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"></path>
             </svg>
             <p className="bg-[#FFA0001A] text-[#FFA000] rounded-full flex items-center gap-1 justify-center py-2 px-5">
-              Due to high patient volume, we are currently accepting
-              appointments for today only. We appreciate your understanding and
-              cooperation.
+              {availability ? "Due to high client volume, for today we are only accepting appointments. We appreciate your understanding and cooperation.":"Even if the lawyer is not available, the appointment will still be scheduled on one of the available days as per the lawyer’s availability."}
             </p>
+
           </div>
           <Link to="/bookings">
             <button
