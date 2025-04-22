@@ -47,17 +47,16 @@ const Bookings = () => {
           )}
           {}
         </div>
-        {
-          storedLawyers.length == 0 ? <div className="flex justify-center mt-10">
+        <div className="flex justify-center mt-10">
           <button
             onClick={() => navigate("/")}
-            className="btn rounded-full p-10 text-xl font-bold hover:bg-[#0EA106] hover:text-white"
+            className="btn rounded-full p-5 sm:p-10 text-xl font-bold hover:bg-[#0EA106] hover:text-white"
           >
-            Go Back to Homepage
+            {storedLawyers.length == 0
+              ? "Go Back to Homepage"
+              : "Look for another lawyer"}
           </button>
-          </div> : null
-        }
-
+        </div>
       </div>
     </div>
   );
