@@ -35,9 +35,12 @@ const Article = () => {
             <p>{author_name}</p>
           </div>
           <div className="flex gap-5 mt-5 sm:mt-0 items-center">
-          <p className="font-bold text-black/60">{date}</p>
           <p className="font-bold text-black/60 flex gap-2 items-center">
-            <img src="/src/assets/gif.gif" alt="" className="w-7" />
+            <img src="/gif2.gif" alt="" className="w-7" />
+            {date}
+          </p>
+          <p className="font-bold text-black/60 flex gap-2 items-center">
+            <img src="/gif.gif" alt="" className="w-7" />
             {read_min} min read
           </p>
           </div>
