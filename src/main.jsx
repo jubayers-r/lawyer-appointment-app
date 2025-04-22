@@ -1,4 +1,7 @@
-import { createBrowserRouter, RouterProvider, useLoaderData, useLocation } from "react-router";
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router";
 import { lazy, StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
@@ -10,7 +13,7 @@ const Details = lazy(() => import("./components/Details/Details.jsx"));
 import Error from "./components/Error/Error.jsx";
 import LawError from "./components/Error/LawError.jsx";
 import Loading from "./utils/loading.jsx";
-
+import Article from "./components/Blogs/Article.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,13 +30,20 @@ const router = createBrowserRouter([
           </Suspense>
         ),
       },
-      { path: "/blogs",
+      {
+        path: "/blogs",
+        loader: () => fetch("/questions.json"),
         element: (
           <Suspense fallback={<Loading />}>
             <Blogs />
           </Suspense>
         ),
-       },
+      },
+      {
+        path: "/article/:id",
+        loader: () => fetch("/questions.json"),
+        Component: Article,
+      },
       {
         path: "/lawyer/:license_number",
         loader: () => fetch("/lawyers.json"),
@@ -51,6 +61,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-      <RouterProvider router={router} />
+    <RouterProvider router={router} />
   </StrictMode>
 );

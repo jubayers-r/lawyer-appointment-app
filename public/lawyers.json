@@ -15,7 +15,7 @@
     "speciality": "Civil Rights & Criminal Defense",
     "years_of_experience": 38,
     "license_number": "CA654321",
-    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    "availability_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Sunday"],
     "consultation_fee": 1200,
     "description": "A passionate advocate for civil rights and a powerful courtroom presence, Johnnie Cochran famously led the defense team in the O.J. Simpson case."
   },
@@ -25,7 +25,7 @@
     "speciality": "Criminal Defense",
     "years_of_experience": 50,
     "license_number": "MA789012",
-    "availability_days": ["Monday", "Wednesday", "Friday"],
+    "availability_days": ["Monday", "Wednesday", "Friday", "Saturday", "Sunday"],
     "consultation_fee": 1500,
     "description": "A legendary trial lawyer known for his sharp cross-examinations, F. Lee Bailey represented some of the most controversial figures in American legal history."
   },

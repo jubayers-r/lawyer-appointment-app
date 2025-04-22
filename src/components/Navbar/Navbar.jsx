@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import logo from "/src/assets/logo.png";
 import "./navbar.css";
 
@@ -14,14 +14,16 @@ const Navbar = () => {
   return (
     <div className="navbar w-9/11 mx-auto py-4">
       <div className="navbar-start">
-        <div className="flex gap-3 py-3 items-center">
-          <div className="max-w-7 min-w-4 sm:max-w-full">
-            <img src={logo} alt="" />
+        <Link to="/">
+          <div className="flex gap-3 py-3 items-center">
+            <div className="max-w-7 min-w-4 sm:max-w-full">
+              <img src={logo} alt="" />
+            </div>
+            <h3 className="font-black text-xl sm:text-3xl text-black/80 font-[Plus_Jakarta_Sans]">
+              Law.USA
+            </h3>
           </div>
-          <h3 className="font-black text-xl sm:text-3xl text-black/80 font-[Plus_Jakarta_Sans]">
-            Law.USA
-          </h3>
-        </div>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex ">
         <ul className="menu menu-horizontal gap-9 xl:text-lg">
