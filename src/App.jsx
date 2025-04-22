@@ -1,9 +1,21 @@
-import { Outlet } from "react-router";
+import { Outlet, useLocation } from "react-router";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import { Bounce, ToastContainer } from "react-toastify";
+import { useEffect } from "react";
 
 function App() {
+  const location = useLocation();
+  useEffect(() => {
+    const path = location.pathname;
+    if (path === "/") {
+      document.title = "Law.USA";
+    } else if (path === "/bookings") {
+      document.title = "Bookings";
+    } else if (path === "/blogs") {
+      document.title = "Blogs";
+    }
+  }, [location]);
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />

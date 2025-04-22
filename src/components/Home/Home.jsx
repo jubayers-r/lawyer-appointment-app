@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from '../Header/Header';
 import Services from '../Services/Services';
 import Lawyers from '../Lawyers/Lawyers';

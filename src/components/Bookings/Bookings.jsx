@@ -4,11 +4,10 @@ import { getLawyers } from "../../utils/localestorage";
 import { useLoaderData } from "react-router";
 import AppoinCard from "./AppoinCard";
 
-
 const Bookings = () => {
-    const lawyers = useLoaderData();
-    const [storedLawyers, setStoredLawyers] = useState([]);
-    useEffect(() => {
+  const lawyers = useLoaderData();
+  const [storedLawyers, setStoredLawyers] = useState([]);
+  useEffect(() => {
     const storedLawyersIDs = getLawyers();
     const storedLawyersData = lawyers.filter((lawyer) =>
       storedLawyersIDs.includes(lawyer.license_number)

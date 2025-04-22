@@ -1,5 +1,4 @@
 import React from "react";
-//
 const ServiceCard = ({ pic, count, title }) => {
   return (
     <div className="p-10 rounded-2xl bg-[#0F0F0F0D] space-y-3 lg:text-left place-items-center lg:place-items-baseline">

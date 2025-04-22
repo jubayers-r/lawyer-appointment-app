@@ -1,5 +1,3 @@
-import React from "react";
-
 const Blogs = () => {
   return (
     <div className="w-9/11 mx-auto space-y-4">
@@ -37,7 +35,12 @@ const Blogs = () => {
           What is a custom hook in React and when should you use one?
         </div>
         <div className="collapse-content text-sm">
-          Custom hook in React is a way to make customized hooks using react's built in hooks like useState, useEffects etc. It can be made for developer's specific need without changing react itself. It should be used when developers are repeating same type of hooks doing the same thing again and again. Making a custom hook out of the same logic and reusing it keeps code more maintainable and organized.
+          Custom hook in React is a way to make customized hooks using react's
+          built in hooks like useState, useEffects etc. It can be made for
+          developer's specific need without changing react itself. It should be
+          used when developers are repeating same type of hooks doing the same
+          thing again and again. Making a custom hook out of the same logic and
+          reusing it keeps code more maintainable and organized.
         </div>
       </div>
       <div className="collapse collapse-arrow bg-base-100 border border-base-300">
@@ -47,7 +50,13 @@ const Blogs = () => {
           is better?
         </div>
         <div className="collapse-content text-sm">
-        Controlled components are managed by React state, providing more control and synchronization, while uncontrolled components delegate control to the DOM, offering flexibility and performance benefits in certain scenarios. While both approaches have their merits, controlled components are generally recommended for most React applications. They offer better control, easier debugging, and improved maintainability, especially for complex forms.
+          Controlled components are managed by React state, providing more
+          control and synchronization, while uncontrolled components delegate
+          control to the DOM, offering flexibility and performance benefits in
+          certain scenarios. While both approaches have their merits, controlled
+          components are generally recommended for most React applications. They
+          offer better control, easier debugging, and improved maintainability,
+          especially for complex forms.
         </div>
       </div>
       <div className="collapse collapse-arrow bg-base-100 border border-base-300">
@@ -56,7 +65,11 @@ const Blogs = () => {
           Tell us something about useFormStatus() in React.
         </div>
         <div className="collapse-content text-sm">
-        useFormStatus is a Hook that gives us status information of the last form submission. useFormStatus does not take any parameters though it returns important information about last from submission. One of the case is when developer needs to display a pending state during form submission using pending property of useFormStatus().
+          useFormStatus is a Hook that gives us status information of the last
+          form submission. useFormStatus does not take any parameters though it
+          returns important information about last from submission. One of the
+          case is when developer needs to display a pending state during form
+          submission using pending property of useFormStatus().
         </div>
       </div>
     </div>

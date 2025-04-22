@@ -1,7 +1,6 @@
 import { toast } from "react-toastify";
 import { removeLawyers } from "../../utils/localestorage";
 
-
 const AppoinCard = ({ lawyer }) => {
   const handleCancel = (id) => {
     toast.warn("Appointment canceled successfully");
