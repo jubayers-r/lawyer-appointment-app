@@ -1,18 +1,29 @@
 import React from "react";
 import { navlinks } from "../Navbar/Navbar";
 import logo from "../../assets/logo-footer.png";
+import { NavLink } from "react-router";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-horizontal footer-center bg-black text-primary-content p-25">
-      <aside className="space-y-3">
-        <div className="flex gap-3">
-          <img src={logo} alt="" />
-          <h3 className="font-black text-3xl text-white font-[Plus_Jakarta_Sans]">
+    <footer className="footer footer-horizontal footer-center bg-black text-primary-content py-20">
+      <aside className="space-y-3 ">
+        <div className="flex gap-3 items-center">
+          <div className="w-8 sm:w-full">
+            <img src={logo} alt="" className="object-cover" />
+          </div>
+          <h3 className="font-black text-xl sm:text-3xl text-white font-[Plus_Jakarta_Sans]">
             Law.USA
           </h3>
         </div>
-        <div className="flex gap-4">{navlinks}</div>
+        <div className="flex gap-4 flex-col sm:flex-row">
+          {navlinks
+            .filter((link) => !link.to.includes("/contact"))
+            .map((link) => (
+              <NavLink key={link.to} to={link.to}>
+                {link.label}
+              </NavLink>
+            ))}
+        </div>
       </aside>
       <hr className="w-full border-dashed text-white/30" />
       <nav>

@@ -1,10 +1,11 @@
 import React, { useEffect } from "react";
-import { Link, useLoaderData, useParams } from "react-router";
+import { Link, useLoaderData, useNavigate, useParams } from "react-router";
 import { nameOfTheDay } from "../Lawyers/Lawyer";
 import { toast } from "react-toastify";
 import { getLawyers, setLawyers } from "../../utils/localestorage";
 
 const Details = () => {
+  const navigate = useNavigate();
   const selected = useParams();
   const lawyers = useLoaderData();
 
@@ -32,6 +33,7 @@ const Details = () => {
     if (!lawyerExist) {
       toast.success(`Successfully scheduled appointment with ${name}`);
       setLawyers(id);
+      navigate("/bookings");
     } else {
       toast.error(`Appointment with ${name} was already booked once`);
     }
@@ -69,7 +71,10 @@ const Details = () => {
                 <p className="font-bold text-black/70">Availability</p>
                 <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
                   {availability_days.map((day) => (
-                    <p className="text-[#FFA000] bg-[#FFA0001A] rounded-full px-3 py-1 flex justify-center">
+                    <p
+                      key={license_number}
+                      className="text-[#FFA000] bg-[#FFA0001A] rounded-full px-3 py-1 flex justify-center"
+                    >
                       {day}
                     </p>
                   ))}
@@ -120,14 +125,12 @@ const Details = () => {
                 : "Even if the lawyer is not available, the appointment will still be scheduled on one of the available days as per the lawyer’s availability."}
             </p>
           </div>
-          <Link to="/bookings">
-            <button
-              onClick={() => handleBooking(name, license_number)}
-              className="btn btn-ghost p-6 rounded-full bg-[#0EA106] text-white xl:text-lg w-full my-6"
-            >
-              Book Appointment Now
-            </button>
-          </Link>
+          <button
+            onClick={() => handleBooking(name, license_number)}
+            className="btn btn-ghost p-6 rounded-full bg-[#0EA106] text-white xl:text-lg w-full my-6"
+          >
+            Book Appointment Now
+          </button>
         </div>
       </div>
     </div>

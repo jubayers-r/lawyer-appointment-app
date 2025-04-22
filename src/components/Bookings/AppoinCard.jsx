@@ -1,10 +1,11 @@
 import { toast } from "react-toastify";
 import { removeLawyers } from "../../utils/localestorage";
 
-const AppoinCard = ({ lawyer }) => {
+const AppoinCard = ({ lawyer, doSomething }) => {
   const handleCancel = (id) => {
-    toast.warn("Appointment canceled successfully");
+    toast.warn("Appointment cancelled successfully");
     removeLawyers(id);
+    doSomething();
   };
   const { name, speciality, license_number, consultation_fee } = lawyer;
   return (

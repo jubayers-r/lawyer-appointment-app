@@ -8,7 +8,7 @@ import CountUp from "react-countup";
 
 const Services = () => {
   return (
-    <div className="space-y-8 mt-8">
+    <div className="space-y-8 my-8">
       <div className="text-center space-y-5">
         <h3 className="font-black text-3xl">We Provide Best Law Services</h3>
         <p>
