@@ -1,6 +1,6 @@
 import { toast } from "react-toastify";
 import { removeLawyers } from "../../utils/localestorage";
-import { useEffect } from "react";
+
 
 const AppoinCard = ({ lawyer }) => {
   const handleCancel = (id) => {
@@ -10,8 +10,8 @@ const AppoinCard = ({ lawyer }) => {
   const { name, speciality, license_number, consultation_fee } = lawyer;
   return (
     <div className="rounded-xl border border-gray-300 p-5 space-y-4">
-      <p className="font-bold text-xl">{name}</p>
-      <div className="flex justify-between">
+      <p className="font-bold text-xl text-center sm:text-left">{name}</p>
+      <div className="sm:flex justify-between text-center">
         <p>{speciality}</p>
         <p>Appointment fee: ${consultation_fee}</p>
       </div>

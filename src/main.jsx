@@ -1,13 +1,16 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
-import { StrictMode } from "react";
+import { lazy, StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
 import Home from "./components/Home/Home.jsx";
-import Bookings from "./components/Bookings/Bookings.jsx";
-import Blogs from "./components/Blogs/Blogs.jsx";
+const Bookings = lazy(() => import("./components/Bookings/Bookings.jsx"));
+const Blogs = lazy(() => import("./components/Blogs/Blogs.jsx"));
+const Details = lazy(() => import("./components/Details/Details.jsx"));
 import Error from "./components/Error/Error.jsx";
-import Details from "./components/Details/Details.jsx";
+import LawError from "./components/Error/LawError.jsx";
+import Loading from "./utils/loading.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -18,13 +21,28 @@ const router = createBrowserRouter([
       {
         path: "/bookings",
         loader: () => fetch("/lawyers.json"),
-        Component: Bookings,
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Bookings />
+          </Suspense>
+        ),
       },
-      { path: "/blogs", Component: Blogs },
+      { path: "/blogs",
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Blogs />
+          </Suspense>
+        ),
+       },
       {
         path: "/lawyer/:license_number",
         loader: () => fetch("/lawyers.json"),
-        Component: Details,
+        element: (
+          <Suspense fallback={<Loading />}>
+            <Details />
+          </Suspense>
+        ),
+        errorElement: <LawError />,
       },
     ],
     errorElement: <Error />,
@@ -33,6 +51,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+      <RouterProvider router={router} />
   </StrictMode>
 );

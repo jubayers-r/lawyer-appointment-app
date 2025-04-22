@@ -19,22 +19,22 @@ const Services = () => {
       <div className=" gap-4 w-full grid sm:grid-cols-2 lg:grid-cols-4">
         <ServiceCard
           pic={firstP}
-          count={<CountUp end={199} />}
+          count={<CountUp duration={6} end={199} />}
           title={"Total Lawyer"}
         />
         <ServiceCard
           pic={secP}
-          count={<CountUp end={467} />}
+          count={<CountUp duration={7} end={467} />}
           title={"Total Reviews"}
         />
         <ServiceCard
           pic={thirdP}
-          count={<CountUp end={1900} />}
+          count={<CountUp duration={8} end={1900} />}
           title={"Cases Initiated"}
         />
         <ServiceCard
           pic={forthP}
-          count={<CountUp end={300} />}
+          count={<CountUp duration={9} end={300} />}
           title={"Total Stuffs"}
         />
       </div>

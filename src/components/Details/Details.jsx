@@ -35,7 +35,7 @@ const Details = () => {
   };
   return (
     <div className="space-y-5 w-9/11 mx-auto ">
-      <div className="rounded-2xl bg-[#0F0F0F0D] space-y-3 text-center my-8 p-10 sm:p-20">
+      <div className="rounded-2xl bg-[#0F0F0F0D] space-y-3 text-center p-10 sm:p-20">
         <div className="mx-auto space-y-4">
           <h3 className="sm:text-2xl sm:font-black font-bold text-xl">
             Lawyer’s Profile Details

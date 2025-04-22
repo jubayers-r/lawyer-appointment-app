@@ -3,7 +3,7 @@ import React from "react";
 const Blogs = () => {
   return (
     <div className="w-9/11 mx-auto space-y-4">
-      <h3 className="font-bold text-4xl text-center py-5">Blogs</h3>
+      <h3 className="font-bold text-4xl text-center">Blogs</h3>
       <p className="text-center pb-8">Frequently Asked Questions</p>
       <div className="collapse collapse-arrow bg-base-100 border border-base-300">
         <input type="radio" name="my-accordion-2" defaultChecked />

@@ -5,10 +5,12 @@ import { Bounce, ToastContainer } from "react-toastify";
 
 function App() {
   return (
-    <>
+    <div className="min-h-screen flex flex-col">
       <Navbar />
       <hr className="text-gray-200" />
-      <Outlet />
+      <main className="flex-grow flex flex-col justify-center mb-15 mt-4">
+        <Outlet />
+      </main>
       <ToastContainer
         position="top-right"
         autoClose={2000}
@@ -23,7 +25,7 @@ function App() {
         transition={Bounce}
       />
       <Footer />
-    </>
+    </div>
   );
 }
 
