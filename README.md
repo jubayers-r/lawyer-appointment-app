@@ -1,12 +1,20 @@
 # ⚖️ Lawyer Appointment Booking App
 
-An interactive React-based web application for browsing lawyer profiles, checking availability, and booking appointments — all with smooth UI, routing, and data persistence. Built with performance, accessibility, and user experience in mind.
+An interactive React-based web app for browsing lawyer profiles, checking availability, and booking appointments. Designed with performance, accessibility, and user experience in mind.
 
 ## 🚀 Live Demo
-[🔗 View Deployed App](https://your-live-site-link.com)
+
+[🔗 View Deployed App](https://gorgeous-crepe-040b98.netlify.app/)
+
+---
 
 ## 📸 Preview
-![App Preview](link-to-screenshot-or-gif)
+
+| Desktop | Mobile |
+|--------|--------|
+| ![Desktop Preview](https://i.ibb.co.com/Y7Z5HJkV/image.png) | ![Mobile Preview](https://i.ibb.co.com/G4bBvL8q/fb24ab72-b553-4b58-91e6-a28ca7de868e.jpg) |
+
+> 📁 More screenshots available in [`/screenshots`](./screenshots)
 
 ---
 
@@ -14,113 +22,110 @@ An interactive React-based web application for browsing lawyer profiles, checkin
 
 - **React.js**
 - **React Router**
-- **Recharts** (for data visualization)
-- **LocalStorage** (for persistence)
-- **React CountUp** (for animated stats)
-- **Vanilla CSS / Tailwind / Styled Components** *(based on your styling choice)*
+- **Tailwind CSS**
+- **Recharts** (Charts)
+- **LocalStorage** (Persistence)
+- **React CountUp** (Animated counters)
 
 ---
 
-## 📂 Features
+## 📦 Installation
 
-### 🧭 Global Navigation
-- Consistent **Navbar** and **Footer** across all pages
-- Responsive design with social media links
-- Dynamic routing and error handling
+To run this project locally:
 
-### 🏠 Homepage
-- Eye-catching banner with background image
-- Lawyer cards grid (6 initially, expandable to 12)
-- Success stats with counting animation
+```bash
+git clone https://github.com/yourusername/lawyer-appointment-app.git
+cd lawyer-appointment-app
+npm install
+npm run dev
+```
+## 🔐 Environment Variables
 
-### 👨‍⚖️ Lawyer Profile Page
-- Detailed lawyer profile with:
-  - Photo, Name, Experience, License, Fees
-  - Availability badges
-- Appointment card with **"Book Now"** logic
+This project does not use external APIs. All data is mocked or stored via `localStorage`.
 
-### 🧾 Booking Logic
-- Prevent duplicate bookings
-- Bookings are stored in **localStorage**
-- User feedback with success/error toasts
+If backend or external services are added in the future, `.env` variables will go here.
 
-### 📅 Bookings Page
-- View all scheduled appointments
-- Cancel functionality with real-time chart update
-- Conditional chart rendering (with Recharts)
+---
+
+## 🌟 Features
+
+### 🔗 Global Navigation
+
+- Responsive Navbar and Footer
+- Dynamic routing with 404 handling
+
+### 🏠 Home Page
+
+- Hero banner, dynamic lawyer grid (6–12), animated stats
+
+### 👨‍⚖️ Lawyer Profiles
+
+- Name, experience, fees, availability badges
+- “Book Now” button with availability logic
+
+### 📅 Booking System
+
+- Prevents duplicates
+- Stored in `localStorage`
+- Success/error toasts
+- Cancel functionality updates charts in real time
 
 ### 📚 Blogs Page
-- Educational blog posts on key React concepts:
-  - `useState`, `useEffect`, custom hooks, controlled vs uncontrolled components, `useFormStatus()`
 
-### ❌ Custom 404 Error Page
-- Friendly message with navigation option
-- Navbar shown, footer hidden for clarity
+- Educational content on React topics (`useState`, `useEffect`, etc.)
 
----
+### 📊 Charts
 
-## 📊 Charts & Stats
-- Dynamic chart shows lawyer fee trends
-- Realtime updates when bookings are cancelled
-- Homepage stats animated using `react-countup`
+- Lawyer fee trends via Recharts
+- Live updates on booking changes
 
 ---
 
-## ✨ Optional Features Implemented
-- **Booking based on availability**
-- **Dynamic page titles using React Router**
-- **Loading indicators for smoother UX**
-- **Invalid route handling with error messaging**
+## 📂 Folder Structure (Simplified)
 
----
-
-## 🧠 Blogs Covered
-
-- What is `useState` and how does it work in React?
-- Purpose of `useEffect`
-- What are custom hooks and when to use them?
-- Controlled vs uncontrolled components
-- What is `useFormStatus()` in React?
-
----
-
-## 🗂️ Folder Structure (Simplified)
+```bash
 src/
-│
 ├── components/
-│ └── Navbar, Footer, LawyerCard, Chart, etc.
-├── pages/
-│ └── Home.jsx, Bookings.jsx, Blog.jsx, Error.jsx, etc.
-├── hooks/
-│ └── useAvailableLawyers.js
+│   ├── Navbar/
+│   ├── Footer/
+│   ├── Blogs/
+│   ├── Error/
 ├── utils/
-│ └── localStorageUtils.js
-└── App.jsx, main.jsx, etc.
+│   ├── localStorageUtils.js
+│   └── Loading.jsx
+├── App.jsx
+└── main.jsx
+```
+
+## 🧠 Educational Blogs Included
+
+- What is `useState` and how does it work?
+- Why use `useEffect` in React?
+- Custom hooks: what and why?
+- Controlled vs uncontrolled components
+- What is `useFormStatus()`?
 
 ---
 
-## 📅 Project Highlights
+## 🤝 Contributing
 
-- ✅ 10+ Git commits
-- 📱 Fully responsive
-- 🧪 Functional booking system with client-side validation
-- 📊 Visual data using charts
-- 💾 Persistent data storage
-- ⚙️ Real-time UI feedback
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create your branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m "Add feature"`)
+4. Push to the branch (`git push origin feature-name`)
+5. Open a pull request
 
 ---
 
 ## 🧑‍💼 Author
 
-**Your Name**
-[🌐 Portfolio](https://your-portfolio.com)
-[🐦 Twitter](https://twitter.com/yourhandle)
-[📧 Email](mailto:your@email.com)
-[💼 LinkedIn](https://linkedin.com/in/yourprofile)
+**Jubayer Shikder**
+[🐦 Twitter (X)](https://x.com/jubaeyrs_r) • [📧 Email](mailto:juabyerxshikder@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/jubayers-r)
 
 ---
 
 ## 📜 License
-This project is licensed under [MIT](LICENSE).
 
----
+This project is licensed under the [MIT License](LICENSE).
