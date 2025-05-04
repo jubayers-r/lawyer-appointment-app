@@ -10,9 +10,13 @@ An interactive React-based web app for browsing lawyer profiles, checking availa
 
 ## 📸 Preview
 
-| Desktop | Mobile |
-|--------|--------|
-| ![Desktop Preview](https://i.ibb.co.com/Y7Z5HJkV/image.png) | ![Mobile Preview](https://i.ibb.co.com/G4bBvL8q/fb24ab72-b553-4b58-91e6-a28ca7de868e.jpg) |
+### 🖥️ Desktop Preview
+
+![Desktop Preview](https://i.ibb.co.com/Y7Z5HJkV/image.png)
+
+### 📱 Mobile Preview
+
+![Mobile Preview](https://i.ibb.co.com/G4bBvL8q/fb24ab72-b553-4b58-91e6-a28ca7de868e.jpg)
 
 > 📁 More screenshots available in [`/screenshots`](./screenshots)
 
@@ -39,6 +43,7 @@ cd lawyer-appointment-app
 npm install
 npm run dev
 ```
+
 ## 🔐 Environment Variables
 
 This project does not use external APIs. All data is mocked or stored via `localStorage`.
@@ -122,7 +127,7 @@ Contributions are welcome! Please follow these steps:
 ## 🧑‍💼 Author
 
 **Jubayer Shikder**
-[🐦 Twitter (X)](https://x.com/jubaeyrs_r) • [📧 Email](mailto:juabyerxshikder@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/jubayers-r)
+[🐦 Twitter (X)](https://x.com/jubayers_r) • [📧 Email](mailto:jubayerxshikder@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/jubayers-r)
 
 ---
 
