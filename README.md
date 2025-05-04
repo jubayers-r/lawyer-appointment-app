@@ -126,8 +126,10 @@ Contributions are welcome! Please follow these steps:
 
 ## 🧑‍💼 Author
 
-**Jubayer Shikder**
-[🐦 Twitter (X)](https://x.com/jubayers_r) • [📧 Email](mailto:jubayerxshikder@gmail.com) • [💼 LinkedIn](https://linkedin.com/in/jubayers-r)
+**Jubayer Shikder** </br>
+[🐦 Twitter (X)](https://x.com/jubayers_r) </br>
+[📧 Email](mailto:jubayerxshikder@gmail.com) </br>
+[💼 LinkedIn](https://linkedin.com/in/jubayers-r)
 
 ---
 
