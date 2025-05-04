@@ -38,7 +38,7 @@ An interactive React-based web app for browsing lawyer profiles, checking availa
 To run this project locally:
 
 ```bash
-git clone https://github.com/yourusername/lawyer-appointment-app.git
+git clone https://github.com/jubayers-r/lawyer-appointment-app.git
 cd lawyer-appointment-app
 npm install
 npm run dev
